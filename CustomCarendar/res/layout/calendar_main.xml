@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/calendar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF3030">
+        <Button 
+            android:id="@+id/calendar_title_left_btn"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:background="@drawable/btn_top_back"/>
+        <LinearLayout 
+            android:id="@+id/calendar_title_month"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/calendar_title_left_btn">
+            <Button
+                android:id="@+id/calendar_title_month_tv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/calendar_month"
+                android:textColor="#ffffff"
+                android:background="@null"
+                android:textSize="15sp"/>
+            <ImageView 
+                android:id="@+id/calendar_title_month_iv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/calendar_select"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+         <LinearLayout 
+            android:id="@+id/calendar_title_category"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true">
+            <Button 
+                android:id="@+id/calendar_title_category_tv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/calendar_category"
+                android:textColor="#ffffff"
+                android:background="@null"
+                android:textSize="15sp"/>
+            <ImageView 
+                android:id="@+id/calendar_title_category_iv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/calendar_select"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <include  layout="@layout/calendar_fragment_headview_item"/>
+    
+</LinearLayout>

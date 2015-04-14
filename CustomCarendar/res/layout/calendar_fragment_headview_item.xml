@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/c_calendar_bgpic" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/week_bg" android:background="#ffcd183f" android:layout_width="fill_parent" android:layout_height="28.0dip">
+        <TextView android:textSize="11.0dip" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="周日" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="周一" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="周二" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="周三" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="周四" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="周五" android:layout_weight="1.0" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/TextColorWhite" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="周六" android:layout_weight="1.0" />
+    </LinearLayout>
+     <GridView 
+        android:id="@+id/calendar_calendar_gv"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:numColumns="7"></GridView>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CustomCarendar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+        <string name="calendar_category">全部分类</string>
+    <string name="calendar_month">2015年4月</string>
+    <string name="dataisnull">没有找到指定的数据</string>
+    <string-array name="calendar_right_category">
+        <item>全部分类</item>
+        <item>演唱会</item>
+        <item>音乐会</item>
+        <item>话剧歌剧</item>
+        <item>舞蹈芭蕾</item>
+        <item>曲苑杂坛</item>
+        <item>体育比赛</item>
+        <item>度假休闲</item>
+        <item>周边商品</item>
+        <item>儿童亲子</item>
+    </string-array>
+</resources>
